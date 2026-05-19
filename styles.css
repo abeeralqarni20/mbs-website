@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", serif;
+}
+body {
+  background-color: #D0D6D4;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 0 0.5rem;
+  max-width: 1200px;
+}
+.logo{
+  width: 80px;
+  height: auto;
+}
+.navigation ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
+.navigation a {
+  text-decoration: none;
+  color: #506B5D;
+}
+.navigation a:hover {
+  color: #101211;
+}
+hr {
+  opacity: 60%;
+}
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    position: relative;
+}
+.homesup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.name {
+    font-size: 2.5rem;
+    color: #506B5D;
+    margin: 0;
+}
+.title {
+    font-size: 1.5rem;
+    color: #101211;
+    margin: 0;
+}
+.homeimge {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding-top: 1rem;
+  max-width: 1200px;
+  gap: 2rem;
+}
+.aboutimge {
+    width: 400px;
+    height: auto;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+}
+.textTitle {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 1.5rem;
+}
+.aboutName {
+  color: #506B5D;
+}
+.aboutpar {
+  text-align: justify;
+  color: #101211;
+}
+.imge {
+  padding: 10rem 10rem;
+  margin: 5rem 0rem;
+}
+.imge ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.imge li img {
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.2s;
+
+
+}
+.imge li :hover {
+  transform: scale(1.5);
+}
+.L2030 {
+    margin: 5rem auto;
+    max-width: 1200px;
+    padding: 0 2rem;
+}
+.vision-title {
+    color: #506B5D;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.vision-text {
+    color: #101211;
+    text-align: justify;
+    line-height: 1;
+    font-size: 0.95rem;      
+    margin-bottom: 1rem;
+    font-weight: 200;         
+}
